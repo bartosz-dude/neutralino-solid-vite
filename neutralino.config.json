@@ -1,0 +1,36 @@
+{
+	"applicationId": "js.neutralino.solid",
+	"version": "1.0.0",
+	"defaultMode": "window",
+	"documentRoot": "/solid-src/dist",
+	"url": "/",
+	"enableServer": true,
+	"enableNativeAPI": true,
+	"nativeAllowList": ["app.*", "os.open"],
+	"modes": {
+		"window": {
+			"title": "neutralinojs-solidjs-vite",
+			"width": 800,
+			"height": 620,
+			"minWidth": 550,
+			"minHeight": 200,
+			"icon": "/solid-src/src/assets/solid.svg",
+			"enableInspector": true
+		}
+	},
+	"cli": {
+		"binaryName": "neutralinojs-solidjs-vite",
+		"resourcesPath": "/solid-src/dist/",
+		"extensionsPath": "/extensions/",
+		"binaryVersion": "5.1.0",
+		"clientVersion": "5.1.0",
+		"frontendLibrary": {
+			"patchFile": "/solid-src/.env.development",
+			"devUrl": "http://localhost:5173",
+			"projectPath": "/solid-src/",
+			"initCommand": "npm install",
+			"devCommand": "npm run dev",
+			"buildCommand": "npm run build"
+		}
+	}
+}

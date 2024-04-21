@@ -1,0 +1,11 @@
+{
+	"name": "neutralino-solid-vite",
+	"version": "1.0.0",
+	"description": "Neutralinojs template for solid + vite",
+	"scripts": {
+		"preinstall": "cd ./solid-src/ && npm install",
+		"dev": "neu run -- --window-enable-inspector --window-exit-process-on-close",
+		"build": "neu build --release"
+	},
+	"author": "bartosz-dude"
+}

@@ -26,7 +26,8 @@ This will install all dependencies and neutralino binaries
 
 ## Known problems
 
-When closing app window in dev mode, vite doesn't stop
+- When closing app window in dev mode, vite doesn't stop
+- may not work on first start (white screen); restart should make it work
 
 ## Why the env
 

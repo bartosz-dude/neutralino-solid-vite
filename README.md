@@ -10,19 +10,19 @@
 
 ## Installation
 
-First you create new neutralino app with their `neu` cli using this as a template by running this command
+Clone this repo
 
 ```bash
-neu create myapp --template bartosz-dude/neutralinojs-solid-vite
+git clone https://github.com/bartosz-dude/neutralino-solid-vite.git
 ```
 
-Next you run this in the root folder of your project
+Next you run this npm script in the root folder of your project
 
 ```bash
 npm install
 ```
 
-This will also install all dependencies in `solid-src`
+This will install all dependencies and neutralino binaries
 
 ## Known problems
 

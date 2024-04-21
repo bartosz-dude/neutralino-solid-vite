@@ -26,7 +26,7 @@ This will install all dependencies and neutralino binaries
 
 ## Known problems
 
-Vite doesn't exit when app window is closed via close button in dev mode
+When closing app window in dev mode, vite doesn't stop
 
 ## Why the env
 
